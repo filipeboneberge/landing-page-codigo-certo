@@ -1,0 +1,45 @@
+@media only screen and (max-width: 780px) {
+    .navigation-desktop{
+        display: none;
+    }
+
+    .navigation-mobile{
+        display: block;
+    }
+
+    .list-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    i.fa-solid.fa-bars {
+        display: block;
+        font-weight: 900;
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .nav-bar {
+        background-color: #000;
+        height: calc(100vh - 90px);
+        visibility: hidden;
+    }
+
+    .btn-contact {
+        display: none;
+    }
+    
+    .btn-menu {
+        background-color: transparent;
+        border: none;
+    }
+
+    .nav-bar.\.active {
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

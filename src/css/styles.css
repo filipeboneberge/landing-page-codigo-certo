@@ -1,3 +1,6 @@
+/* INICIO HEADER */
+
+
 .header-top {
     display: flex;
     align-items: center;
@@ -84,3 +87,73 @@ i.fa-solid.fa-bars {
 .nav-bar  {
     display: none;
 }
+
+/* FIM HEADER */
+
+.main {
+    width: 100%;
+    height: calc(100vh - 90px);
+}
+
+.container-main {
+    background-image: url("../images/background-main.webp");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-main {
+    color: #fff;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: animationFadeInLeft 1.5s ease-in-out;
+}
+
+@keyframes animationFadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+
+.logo-main {
+    width: 100%;
+    animation: animationFadeInRight 1.5s ease-in-out;
+}
+
+@keyframes animationFadeInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.left-main, .rigth-main {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+}
+
+.rigth-main {
+    padding-left: 0;
+}
+

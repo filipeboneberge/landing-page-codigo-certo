@@ -5,6 +5,20 @@
     font-family: Open Sans, sans-serif;
 }
 
+
+
+.hidden {
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 2s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transition: all 2s;
+}
+
 .container {
     width: 100%;
     height: 100vh;
@@ -34,4 +48,6 @@
     background-position: right;
     height: 100%;
 }
+
+
 

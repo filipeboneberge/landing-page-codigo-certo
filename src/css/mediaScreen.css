@@ -9,6 +9,11 @@
         display: block;
     }
 
+    .header-top {
+        z-index: 999;
+        position: static;
+    }
+
     .list-links{
         display: flex;
         flex-direction: column;
@@ -29,9 +34,6 @@
         visibility: hidden;
     }
 
-    .btn-contact {
-        display: none;
-    }
     
     .btn-menu {
         background-color: transparent;
@@ -43,6 +45,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        z-index: 999;
     }
 
 
@@ -74,11 +78,58 @@
 
 /* INICIO ABOUT */
 
-.subtitle::after {
-    width: 50%;
-}
+    .container-about {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        gap: 20px;
+        height: 100%;
+        margin-top: 50px;
+    }
+
+    .left-about, .right-about {
+        width: 100%;
+    }
+
+    .subtitle::after {
+        width: 50%;
+    }
 
 /* FIM ABOUT */
+
+
+/* INICIO SERVICES */
+
+    #services {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .container-services {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 50px;
+    }
+
+    /* FIM SERVICES */
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+    .container-about {
+        margin-top: 50px;
+    }
+    
+    .container-services {
+        margin-top: 50px;
+    }
 }
 
 
@@ -87,6 +138,7 @@
     .title-main {
         font-size: 4rem;
     }
+
 }
 
 /* FIM MAIN */

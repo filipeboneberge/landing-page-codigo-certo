@@ -1,4 +1,4 @@
-# 💻 <a href="https://codigocerto.netlify.app/"> Landing Page - Códogo Certo </a>
+# 💻 <a href="https://codigocerto.netlify.app/"> Landing Page - Código Certo </a>
 
 <i>A Código Certo Coders é uma comunidade dedicada ao aprendizado contínuo, colaboração e inovação na área de tecnologia.</i>
 

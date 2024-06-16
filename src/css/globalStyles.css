@@ -4,3 +4,34 @@
     box-sizing: border-box;
     font-family: Open Sans, sans-serif;
 }
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.subtitle-h3 {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.paragraph{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.bg-original {
+    background-image: url("../images/background-main.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.bg-right {
+    background-image: url("../images/background-main.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+}
+

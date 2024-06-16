@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page Código Certo</title>
-    <link rel="shortcut icon" href="./src/images/favicon-codigo-certo.webp" type="image/webp">
+    <link rel="shortcut icon" href="./src/images/codigocerto-favicon.webp" type="image/webp">
     <link rel="stylesheet" href="./src/css/globalStyles.css">
     <link rel="stylesheet" href="./src/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,18 +16,18 @@
 <body>
     <header class="header-top">
         <section class="logo-block">
-            <img src="./src/images/logo.webp" alt="logo-codigo-certo" class="logo">
+            <a href="#top-main"><img src="./src/images/logo-codigo-certo.webp" alt="logo-codigo-certo" class="logo"></a>
         </section>
         <nav class="navigation-desktop">
             <ul class="list-links">
                 <li>
-                    <a href="#">Inicio</a>
+                    <a href="#about">Sobre</a>
                 </li>
                 <li>
-                    <a href="#">Sobre</a>
+                    <a href="#services">Serviços</a>
                 </li>
                 <li>
-                    <a href="#">Contato</a>
+                    <a href="#contact">Contato</a>
                 </li>
                 <li>
                     
@@ -45,13 +45,13 @@
     <div class="nav-bar">
         <ul class="list-links">
             <li>
-                <a href="#">Inicio</a>
+                <a href="#about">Sobre</a>
             </li>
             <li>
-                <a href="#">Sobre</a>
+                <a href="#services">Serviços</a>
             </li>
             <li>
-                <a href="#">Contato</a>
+                <a href="#contact">Contato</a>
             </li>
             <li>
                 
@@ -61,8 +61,8 @@
         </ul>
     </div>
 
-    <main class="main">
-        <section class="container-main">
+    <main class="main" id="top-main">
+        <div class=" container container-main bg-original">
             <div class="left-main">
                 <h1 class="title-main">Compartilhar conhecimento pode ser uma aventura.</h1>
             </div>
@@ -70,9 +70,79 @@
             <div class="rigth-main">
                 <img class="logo-main" src="./src/images/logo.webp" alt="logo-main">
             </div>
-        </section>
+        </div>
         
     </main>
+
+    <section class="container bg-right" id="about">
+        <h2 class="subtitle">Sobre a Código Certo</h2>
+        <div class="container-about">
+            <div class="left-about">
+                <img src="./src/images/codigo-certo-avatar.webp" alt="codigo-certo-avatar">
+            </div>
+
+            <div class="right-about">
+                <h3 class="subtitle-h3">A Código Certo Coders é uma comunidade dedicada ao aprendizado contínuo, colaboração e inovação na área de tecnologia.</h3>
+                <p class="paragraph">Nosso objetivo é criar um ambiente inclusivo onde estudantes, profissionais e mentores possam se unir para impulsionar o desenvolvimento digital e pessoal.</p>
+                    <p class="paragraph">Valorizamos a diversidade de experiências e acreditamos no poder da colaboração para alcançar grandes realizações. </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container bg-original" id="services">
+        <h2 class="subtitle">Nossos Serviços</h2>
+        <div class="container-services">
+            
+                <div class="title-services">
+                    <h4>Voluntariado</h4>
+                    <div class="our-services">
+                        <i class="fa-regular fa-hand-point-up icon-services"></i>
+                        <p>Participe de projetos voluntário que impactam a comunidade e o mundo da tecnologia.</p>
+                    </div>               
+                </div>
+            
+
+            <div class="title-services">
+                <h4>Recursos de Aprendizado</h4>
+                <div class="our-services">
+                    <i class="fa-solid fa-laptop-file icon-services"></i>
+                    <p>Acesse uma vasta biblioteca de tutoriais, cursos online  e materiais de estudo.</p>
+                </div>               
+            </div>
+
+            <div class="title-services">
+                <h4>Programas de Mentoria</h4>
+                <div class="our-services">
+                    <i class="fa-solid fa-people-robbery icon-services"></i>
+                    <p>Conecte-se com mentores experientes que irão guiar seu desenvolvimento profissional.</p>
+                </div>               
+            </div>
+
+            <div class="title-services">
+                <h4>Networking e Eventos</h4>
+                <div class="our-services">
+                    <i class="fa-brands fa-connectdevelop icon-services"></i>
+                    <p>Participe de eventos e sessões de networking para expandir sua rede profissional</p>
+                </div>               
+            </div>
+
+                        
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <h2 class="subtitle">Contato</h2>
+        <div class="contacts-codigo-certo">
+           <a href="#"><i class="fa-brands fa-whatsapp icon-footer"></i></a> 
+           <a href="#"><i class="fa-brands fa-linkedin icon-footer"></i></a> 
+           <a href="#"><i class="fa-brands fa-discord icon-footer"></i></a> 
+           <a href="#"><i class="fa-brands fa-github icon-footer"></i></a> 
+        </div>
+
+        <div class="footer-avatar">
+            <img src="./src/images/img-footer.webp" alt="img-footer">
+        </div>
+    </footer>
     
 </body>
 
